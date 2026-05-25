@@ -1,0 +1,1 @@
+To ensure consistent quality, supportability, and alignment with the Lenovo product roadmap, this repository does not accept GitHub pull requests. We welcome bug reports through the appropriate Lenovo support and feedback channels.
