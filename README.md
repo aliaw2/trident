@@ -19,4 +19,8 @@ For any technical issues regarding Trident with Lenovo systems, please contact y
 
 ====
 
+Lenovo Privacy Statement (To be added here)
+
+====
+
 The repo host specific branch for research only
