@@ -13,7 +13,7 @@ Trident deploys in Kubernetes clusters as pods and provides dynamic storage orch
 
 Trident features also address data protection, disaster recovery, portability, and migration use cases for Kubernetes workloads leveraging ONTAP’s industry-leading data management technology for snapshots, backups, replication, and cloning.
 
-Detailed documentation for Trident can be found [here](https://github.com/aliaw2/trident/blob/44c37431ac81514e9c846530c101963fbdf6e2d3/Lenovo_Trident_25_06_Documentation.pdf).
+Guidance to install and configure Trident with Lenovo Storage can be found [here](https://github.com/aliaw2/trident/blob/44c37431ac81514e9c846530c101963fbdf6e2d3/Lenovo_Trident_25_06_Documentation.pdf).
 
 For any technical issues regarding Trident with Lenovo systems, please contact your Lenovo Support representative.
 
