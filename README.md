@@ -17,9 +17,7 @@ Guidance to install and configure Trident with Lenovo Storage can be found [here
 
 For any technical issues regarding Trident with Lenovo systems, please contact your Lenovo Support representative.
 
-====
-
-Lenovo Privacy Statement (To be added here)
+This installation uses the open-source NetApp Trident CSI driver, a third-party component not controlled by Lenovo. By default, the driver may automatically send telemetry and diagnostic data (such as cluster metadata, usage metrics, and logs) to NetApp for support and product improvement purposes. By proceeding, you acknowledge that telemetry and support-related technical data may be processed by NetApp under its own terms and policies, and by Lenovo as described in the [Lenovo Product Privacy Statement](https://www.lenovo.com/us/en/privacy/?srsltid=AfmBOopRyXjCladDTf1ecK-RMkGotuyT7CpbeG8R49PJsa8Bm0vdWwOd). AutoSupport functionality may be disabled during or after installation, subject to technical limitations.
 
 ====
 
