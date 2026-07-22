@@ -222,7 +222,7 @@ func init() {
 	installCmd.Flags().BoolVar(&skipK8sVersionCheck, "skip-k8s-version-check", false,
 		"(Deprecated) Skip Kubernetes version check for Trident compatibility")
 	installCmd.Flags().BoolVar(&useIPv6, "use-ipv6", false, "Use IPv6 for Trident's communication.")
-	installCmd.Flags().BoolVar(&silenceAutosupport, "silence-autosupport", tridentconfig.BuildType != "stable",
+	installCmd.Flags().BoolVar(&silenceAutosupport, "silence-autosupport", tridentconfig.BuildType == "stable",
 		"Don't send autosupport bundles to NetApp automatically.")
 	installCmd.Flags().BoolVar(&excludeAutosupport, "exclude-autosupport", false,
 		"Don't install or run the autosupport container.")
