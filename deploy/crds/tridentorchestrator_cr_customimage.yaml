@@ -5,4 +5,5 @@ metadata:
 spec:
   debug: true
   namespace: trident
+  silenceAutosupport: true
   tridentImage: localhost:5000/netapp/trident:26.02

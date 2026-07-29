@@ -5,6 +5,7 @@ metadata:
 spec:
   debug: true
   namespace: trident
+  silenceAutosupport: true
   imagePullPolicy: IfNotPresent
   windows: false
   cloudProvider: ""
