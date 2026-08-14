@@ -89,7 +89,7 @@ tridentK8sTimeout: 0
 tridentHttpRequestTimeout: "90s"
 
 # tridentSilenceAutosupport allows disabling Trident's periodic Autosupport reporting.
-tridentSilenceAutosupport: false
+tridentSilenceAutosupport: true
 
 # tridentExcludeAutosupport allows removal of the autosupport container when installing Trident.
 tridentExcludeAutosupport: false

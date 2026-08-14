@@ -403,10 +403,6 @@ installer: binaries chart
 	@sed -Ei "s|${DEFAULT_OPERATOR_TAG}|${OPERATOR_TAG}|g" /tmp/trident-installer/deploy/bundle.yaml
 	@mkdir -p /tmp/trident-installer/helm
 	@cp -a trident-operator-*.tgz /tmp/trident-installer/helm/
-	@mkdir -p /tmp/trident-installer/extras/bin
-	@cp $(call binary_path,trident_orchestrator,linux/amd64) /tmp/trident-installer/extras/bin/trident
-	@mkdir -p /tmp/trident-installer/extras/macos/bin
-	-@cp $(call binary_path,tridentctl,darwin/amd64) /tmp/trident-installer/extras/macos/bin/
 	@tar -C /tmp -czf trident-installer-${TRIDENT_VERSION}.tar.gz trident-installer
 	@rm -rf /tmp/trident-installer
 
