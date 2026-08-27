@@ -1,7 +1,6 @@
 <img src="logo/trident.png" alt="NetApp Trident" width="100" height="100">
 
 [![license](https://img.shields.io/github/license/netapp/trident.svg)](LICENSE)
-[![Docs](https://img.shields.io/badge/docs-official-0067C5.svg)](https://github.com/aliaw2/trident/blob/44c37431ac81514e9c846530c101963fbdf6e2d3/Lenovo_Trident_25_06_Documentation.pdf)
 
 Trident is a fully supported open source project maintained by [NetApp](https://www.netapp.com). It has been designed from the ground up to help you meet your containerized applications' persistence demands using industry-standard interfaces, such as the [Container Storage Interface (CSI)](https://kubernetes-csi.github.io/docs/introduction.html). Lenovo hosts Trident as we test and validate it with Lenovo Storage.
 
@@ -9,12 +8,14 @@ Trident deploys in Kubernetes clusters as pods and provides dynamic storage orch
 
 Trident features also address data protection, disaster recovery, portability, and migration use cases for Kubernetes workloads leveraging ONTAP’s industry-leading data management technology for snapshots, backups, replication, and cloning.
 
-Guidance to install and configure Trident with Lenovo Storage can be found [here](https://github.com/aliaw2/trident/blob/44c37431ac81514e9c846530c101963fbdf6e2d3/Lenovo_Trident_25_06_Documentation.pdf).
+Guidance to install and configure Trident with Lenovo Storage can be found [here](Lenovo_Trident_26_02_Documentation.pdf).
 
 For any technical issues regarding Trident with Lenovo systems, please contact your Lenovo Support representative.
 
-This installation uses the open-source NetApp Trident CSI driver, a third-party component not controlled by Lenovo. By default, the driver may automatically send telemetry and diagnostic data (such as cluster metadata, usage metrics, and logs) to NetApp for support and product improvement purposes. By proceeding, you acknowledge that telemetry and support-related technical data may be processed by NetApp under its own terms and policies, and by Lenovo as described in the [Lenovo Product Privacy Statement](https://www.lenovo.com/us/en/privacy/?srsltid=AfmBOopRyXjCladDTf1ecK-RMkGotuyT7CpbeG8R49PJsa8Bm0vdWwOd). AutoSupport functionality may be disabled during or after installation, subject to technical limitations.
+NetApp Trident is an open-source third-party component supported for use with Lenovo storage. AutoSupport is disabled by default and no AutoSupport data is transmitted unless you choose to enable it.
 
-====
+If you enable AutoSupport, Trident may collect and send device identifiers (including node ID and node IP), deployment and configuration information, Prometheus metrics, usage and performance data, diagnostic information, and logs to NetApp, Lenovo's authorized partner, in the United States, for diagnostic, troubleshooting and support purposes.
 
-The repo host specific branch for research only
+NetApp will process information it receives in accordance with the NetApp Privacy Policy [link]. Lenovo may separately process information relating to your use of Trident and Lenovo products, where necessary, to provide support, troubleshoot and resolve issues, administer your customer relationship, and for other purposes described in the [Lenovo Product Privacy Statement](https://www.lenovo.com/us/en/privacy/?srsltid=AfmBOopRyXjCladDTf1ecK-RMkGotuyT7CpbeG8R49PJsa8Bm0vdWwOd) and any additional terms applicable to your relationship with Lenovo.
+
+You are not required to enable AutoSupport to use Trident. If you enable it, you may disable AutoSupport at any time by [README.asup](README.asup.md), which will stop future AutoSupport transmissions.
